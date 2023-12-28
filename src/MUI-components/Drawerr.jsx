@@ -35,8 +35,8 @@ const Drawerr = ({
   const myList = [
     { text: "Home", icon: <Home />, path: "/" },
     { text: "Create", icon: <Create />, path: "/create" },
-    { text: "Profile", icon: <Person2 />, path: "/profile" },
-    { text: "Settings", icon: <Settings />, path: "/settings" },
+    // { text: "Profile", icon: <Person2 />, path: "/profile" },
+    // { text: "Settings", icon: <Settings />, path: "/settings" },
   ];
 
   return (
@@ -113,15 +113,7 @@ const Drawerr = ({
             );
           })}
 
-          {/* Logout */}
-          <ListItem disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                <Logout />
-              </ListItemIcon>
-              <ListItemText primary="Logout" />
-            </ListItemButton>
-          </ListItem>
+      
         </List>
         <Divider />
       </Drawer>
